@@ -1,0 +1,11 @@
+.banner {
+    background-color: #A0D8FF;
+}
+
+.navbar {
+    background-color: #A0D8FF;
+}
+
+.banner .navbar-collapse {
+    flex-grow: initial;
+}
