@@ -1,11 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
 .banner {
-    background-color: #A0D8FF;
+    background-color: #ffc700;
+    box-shadow: 1px 1px 10px #888585;
+    z-index: 1;
 }
 
 .navbar {
-    background-color: #A0D8FF;
+    background-color: transparent;
+}
+
+.navbar-light .nav-item a.nav-link {
+    color: #242424;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover,
+.navbar-light .navbar-nav .nav-item a:focus,
+.navbar-light .navbar-nav .nav-item.active a {
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: #ffc700;
+    text-align: right;
+    top: 60px;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a:focus,
+.dropdown-menu a:active {
+    color: #ffffff;
+    background: transparent;
 }
 
 .banner .navbar-collapse {
     flex-grow: initial;
+    text-align: right;
+}
+
+.navbar-brand {
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    max-width: 150px;
 }
